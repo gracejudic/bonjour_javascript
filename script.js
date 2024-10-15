@@ -1,5 +1,5 @@
 let firstName = prompt("Quel est ton prénom ?")
-let hour = prompt("Quel heure est-il ?")
+let hour = prompt("Quelle heure est-il ?")
 function sayHello(name,hour) {   
   if (hour >= 18 && hour <= 24 || hour >= 0 && hour <= 4 )
   {
